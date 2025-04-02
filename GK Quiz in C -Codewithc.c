@@ -189,6 +189,23 @@ int main()
         printf("Sorry wrong answer.");
         getchar();
     }
+    system("cls");
+    if(x == 100) {
+        printf("No cheating...... You have done this earlier also.");
+    }
+    if(x == 90){
+        printf("You are extremely intelligent. Your Score is 90");
+    }
+    if(x == 80){
+        printf("You are intelligent. Your Score is 80");
+    }
+    if(50 == x || x == 70 || x == 60) {
+        printf("You are average. Your Score is %d. Better luck next time\n", x);
+    }
+    else if(x <= 40){
+        printf("No use........ Not even 5 questions right");
+    }
 
     return 0;
+
 }
